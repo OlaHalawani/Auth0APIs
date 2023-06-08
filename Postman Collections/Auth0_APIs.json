@@ -32,7 +32,7 @@
 			"response": []
 		},
 		{
-			"name": "Private - noAuth Copy",
+			"name": "Private - Auth",
 			"id": "6d8e1bf2-4466-4bde-bc4c-4acd3ca09f8d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
