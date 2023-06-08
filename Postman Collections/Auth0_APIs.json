@@ -41,10 +41,10 @@
 				"auth": {
 					"type": "oauth2",
 					"oauth2": {
+						"accessTokenUrl": "https://{{auth0_domain}}/oauth/token",
+						"authUrl": "https://{{auth0_domain}}/authorize?audience={{auth0_audience}}",
 						"clientSecret": "{{auth0_clientSecret}}",
 						"clientId": "{{auth0_clientID}}",
-						"accessTokenUrl": "{{auth0_domain}}/oauth/token",
-						"authUrl": "{{auth0_domain}}/authorize?audience={{auth0_audience}}",
 						"redirect_uri": "https://www.getpostman.com/oauth2/callback",
 						"tokenName": "Token",
 						"addTokenTo": "header",
