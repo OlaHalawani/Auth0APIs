@@ -27,7 +27,7 @@
 			"request": {
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:8888/private"
+				"url": "{{baseURL}}/private"
 			},
 			"response": []
 		},
