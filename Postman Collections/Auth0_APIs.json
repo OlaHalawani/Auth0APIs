@@ -19,20 +19,21 @@
 			"response": []
 		},
 		{
-			"name": "Private - Auth",
-			"id": "87aaea2f-374d-41fa-8dc3-ab08c0db12e7",
+			"name": "Private - noAuth",
+			"id": "9d7b98a1-d010-4c0d-8423-9836ee4f25f1",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "http://localhost:8888/private"
 			},
 			"response": []
 		},
 		{
-			"name": "Private - noAuth",
-			"id": "9d7b98a1-d010-4c0d-8423-9836ee4f25f1",
+			"name": "Private - noAuth Copy",
+			"id": "6d8e1bf2-4466-4bde-bc4c-4acd3ca09f8d",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
