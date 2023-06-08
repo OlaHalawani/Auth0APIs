@@ -41,10 +41,11 @@
 				"auth": {
 					"type": "oauth2",
 					"oauth2": {
-						"accessTokenUrl": "https://{{auth0_domain}}/oauth/token",
 						"authUrl": "https://{{auth0_domain}}/authorize?audience={{auth0_audience}}",
-						"clientSecret": "{{auth0_clientSecret}}",
+						"accessTokenUrl": "https://{{auth0_domain}}/oauth/token",
+						"useBrowser": false,
 						"clientId": "{{auth0_clientID}}",
+						"clientSecret": "{{auth0_clientSecret}}",
 						"redirect_uri": "https://www.getpostman.com/oauth2/callback",
 						"tokenName": "Token",
 						"addTokenTo": "header",
@@ -68,13 +69,12 @@
 								"send_as": "request_url"
 							}
 						],
-						"useBrowser": false,
 						"client_authentication": "body"
 					}
 				},
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:8888/private"
+				"url": "https://localhost:8888/private"
 			},
 			"response": []
 		}
