@@ -1,0 +1,48 @@
+{
+	"info": {
+		"_postman_id": "da9511a8-2940-4856-8a0f-ed18ee53971e",
+		"name": "Auth0 APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Public",
+			"_postman_id": "6eea8c40-d0f6-47dc-a510-5fc710af2cd0",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "{{baseURL}}/public"
+			},
+			"response": []
+		},
+		{
+			"name": "Private - Auth",
+			"_postman_id": "87aaea2f-374d-41fa-8dc3-ab08c0db12e7",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Private - noAuth",
+			"_postman_id": "9d7b98a1-d010-4c0d-8423-9836ee4f25f1",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": "http://localhost:8888/private"
+			},
+			"response": []
+		}
+	]
+}
