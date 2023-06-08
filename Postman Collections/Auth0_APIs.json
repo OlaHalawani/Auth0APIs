@@ -41,6 +41,7 @@
 				"auth": {
 					"type": "oauth2",
 					"oauth2": {
+						"useBrowser": true,
 						"authUrl": "https://{{domain}}/authorization?audience={{audience}}",
 						"client_authentication": "body",
 						"clientSecret": "{{clentSecret}}",
