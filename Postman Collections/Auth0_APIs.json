@@ -41,6 +41,26 @@
 				"auth": {
 					"type": "oauth2",
 					"oauth2": {
+						"authRequestParams": [
+							{
+								"key": "url",
+								"value": "https://dev-ola97.us.auth0.com/oauth/token",
+								"enabled": true,
+								"send_as": "request_url"
+							},
+							{
+								"key": "headers",
+								"value": "content-type: application/json",
+								"enabled": true,
+								"send_as": "request_url"
+							},
+							{
+								"key": "body",
+								"value": "{\"client_id\":\"dW4oRQXUJxWrwtCH8CjpU3YGCtHjrthB\",\"client_secret\":\"VpqElCPgPiRiF1nJUWXBvNHjfJlHyFKNvX4Dvj3rUH07MMfepLa6XmISjc_Fq4jq\",\"audience\":\"private/auth\",\"grant_type\":\"client_credentials\"}",
+								"enabled": true,
+								"send_as": "request_url"
+							}
+						],
 						"client_authentication": "header",
 						"useBrowser": true,
 						"authUrl": "https://{{domain}}/authorization?audience={{audience}}",
