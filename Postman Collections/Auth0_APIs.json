@@ -38,6 +38,19 @@
 				"disableBodyPruning": true
 			},
 			"request": {
+				"auth": {
+					"type": "oauth2",
+					"oauth2": {
+						"authUrl": "https://{{domain}}/authorization?audience={{audience}}",
+						"client_authentication": "body",
+						"clientSecret": "{{clentSecret}}",
+						"clientId": "{{clientID}}",
+						"accessTokenUrl": "https://{{domain}}/0auth/token",
+						"redirect_uri": "https://www.getpostman.com/auth2/callback",
+						"tokenName": "Auth0 Token",
+						"addTokenTo": "header"
+					}
+				},
 				"method": "GET",
 				"header": [],
 				"url": "http://localhost:8888/private"
