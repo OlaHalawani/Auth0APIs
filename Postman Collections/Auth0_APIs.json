@@ -41,35 +41,35 @@
 				"auth": {
 					"type": "oauth2",
 					"oauth2": {
+						"authUrl": "https://{{domain}}/authorize?audience={{audience}}",
+						"clientSecret": "{{clientSecret}}",
+						"clientId": "{{clientID}}",
+						"accessTokenUrl": "https://{{domain}}/0auth/token",
+						"tokenName": "Auth0 Token",
+						"redirect_uri": "https://www.getpostman.com/auth2/callback",
+						"addTokenTo": "header",
 						"authRequestParams": [
 							{
 								"key": "url",
 								"value": "https://dev-ola97.us.auth0.com/oauth/token",
-								"enabled": false,
+								"enabled": true,
 								"send_as": "request_url"
 							},
 							{
 								"key": "headers",
 								"value": "content-type: application/json",
-								"enabled": false,
+								"enabled": true,
 								"send_as": "request_url"
 							},
 							{
 								"key": "body",
 								"value": "{\"client_id\":\"dW4oRQXUJxWrwtCH8CjpU3YGCtHjrthB\",\"client_secret\":\"VpqElCPgPiRiF1nJUWXBvNHjfJlHyFKNvX4Dvj3rUH07MMfepLa6XmISjc_Fq4jq\",\"audience\":\"private/auth\",\"grant_type\":\"client_credentials\"}",
-								"enabled": false,
+								"enabled": true,
 								"send_as": "request_url"
 							}
 						],
-						"clientSecret": "{{clientSecret}}",
-						"client_authentication": "header",
-						"useBrowser": true,
-						"authUrl": "https://{{domain}}/authorization?audience={{audience}}",
-						"clientId": "{{clientID}}",
-						"accessTokenUrl": "https://{{domain}}/0auth/token",
-						"redirect_uri": "https://www.getpostman.com/auth2/callback",
-						"tokenName": "Auth0 Token",
-						"addTokenTo": "header"
+						"useBrowser": false,
+						"client_authentication": "body"
 					}
 				},
 				"method": "GET",
