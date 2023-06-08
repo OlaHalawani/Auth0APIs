@@ -41,6 +41,7 @@
 				"auth": {
 					"type": "oauth2",
 					"oauth2": {
+						"clientSecret": "{{clientSecret}}",
 						"authRequestParams": [
 							{
 								"key": "url",
@@ -64,7 +65,6 @@
 						"client_authentication": "header",
 						"useBrowser": true,
 						"authUrl": "https://{{domain}}/authorization?audience={{audience}}",
-						"clientSecret": "{{clentSecret}}",
 						"clientId": "{{clientID}}",
 						"accessTokenUrl": "https://{{domain}}/0auth/token",
 						"redirect_uri": "https://www.getpostman.com/auth2/callback",
