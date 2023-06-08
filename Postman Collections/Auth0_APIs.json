@@ -41,12 +41,12 @@
 				"auth": {
 					"type": "oauth2",
 					"oauth2": {
-						"redirect_uri": "https://www.getpostman.us.auth0.com/oauth2/callback",
-						"accessTokenUrl": "https://{{domain}}/oauth/token",
-						"authUrl": "https://{{domain}}/authorize?audience={{audience}}",
+						"accessTokenUrl": "{{domain}}/oauth/token",
+						"redirect_uri": "https://www.getpostman.com/oauth2/callback",
+						"tokenName": "Token",
+						"authUrl": "{{domain}}/authorize?audience={{audience}}",
 						"clientSecret": "{{clientSecret}}",
 						"clientId": "{{clientID}}",
-						"tokenName": "Auth0 Token",
 						"addTokenTo": "header",
 						"authRequestParams": [
 							{
