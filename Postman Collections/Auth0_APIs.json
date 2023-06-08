@@ -77,18 +77,6 @@
 				"url": "http://localhost:8888/private"
 			},
 			"response": []
-		},
-		{
-			"name": "test",
-			"id": "92087787-817e-4c6f-a41f-f791e8b8574b",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"method": "GET",
-				"header": []
-			},
-			"response": []
 		}
 	]
 }
