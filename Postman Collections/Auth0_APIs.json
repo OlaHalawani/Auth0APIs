@@ -41,7 +41,7 @@
 				"auth": {
 					"type": "oauth2",
 					"oauth2": {
-						"redirect_uri": "https://www.getpostman.com/oauth2/callback",
+						"redirect_uri": "https://www.getpostman.us.auth0.com/oauth2/callback",
 						"accessTokenUrl": "https://{{domain}}/oauth/token",
 						"authUrl": "https://{{domain}}/authorize?audience={{audience}}",
 						"clientSecret": "{{clientSecret}}",
