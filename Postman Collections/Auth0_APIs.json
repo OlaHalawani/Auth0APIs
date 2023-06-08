@@ -41,9 +41,9 @@
 				"auth": {
 					"type": "oauth2",
 					"oauth2": {
+						"client_authentication": "header",
 						"useBrowser": true,
 						"authUrl": "https://{{domain}}/authorization?audience={{audience}}",
-						"client_authentication": "body",
 						"clientSecret": "{{clentSecret}}",
 						"clientId": "{{clientID}}",
 						"accessTokenUrl": "https://{{domain}}/0auth/token",
