@@ -66,26 +66,11 @@
 						"type": "text"
 					}
 				],
-				"url": {
-					"raw": "127.0.0.1:8888/private?token",
-					"host": [
-						"127",
-						"0",
-						"0",
-						"1"
-					],
-					"port": "8888",
-					"path": [
-						"private"
-					],
-					"query": [
-						{
-							"key": "token",
-							"value": null,
-							"type": "text"
-						}
-					]
-				}
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"client_id\": \"Ea5vBjKjgMzGSVejJx1Kmhm9qxYKWCIe\",\n    \"client_secret\": \"aFR6JbZsffRN2rQJE2n1KK5zB6CLVbpguy9NhpclRp1wHbnEOE7KSGExRhOzW1pb\",\n    \"audience\": \"https://dev-api-testing.jp.auth0.com/api/v2/\",\n    \"grant_type\": \"client_credentials\"\n}"
+				},
+				"url": "127.0.0.1:8888/private"
 			},
 			"response": []
 		}
