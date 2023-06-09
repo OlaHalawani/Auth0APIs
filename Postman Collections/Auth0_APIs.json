@@ -19,22 +19,6 @@
 			"response": []
 		},
 		{
-			"name": "Private - noAuth",
-			"id": "9d7b98a1-d010-4c0d-8423-9836ee4f25f1",
-			"protocolProfileBehavior": {
-				"disableBodyPruning": true
-			},
-			"request": {
-				"auth": {
-					"type": "noauth"
-				},
-				"method": "GET",
-				"header": [],
-				"url": "{{baseURL}}/private"
-			},
-			"response": []
-		},
-		{
 			"name": "Private - Auth",
 			"id": "6d8e1bf2-4466-4bde-bc4c-4acd3ca09f8d",
 			"protocolProfileBehavior": {
