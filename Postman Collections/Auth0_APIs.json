@@ -59,8 +59,33 @@
 					}
 				},
 				"method": "GET",
-				"header": [],
-				"url": "127.0.0.1:8888/private"
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "127.0.0.1:8888/private?token",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8888",
+					"path": [
+						"private"
+					],
+					"query": [
+						{
+							"key": "token",
+							"value": null,
+							"type": "text"
+						}
+					]
+				}
 			},
 			"response": []
 		}
