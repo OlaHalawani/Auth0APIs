@@ -44,9 +44,9 @@
 				"auth": {
 					"type": "oauth2",
 					"oauth2": {
+						"grant_type": "authorization_code",
 						"client_authentication": "body",
 						"authRequestParams": [],
-						"grant_type": "authorization_code",
 						"headerPrefix": "Bearer",
 						"addTokenTo": "header",
 						"authUrl": "https://{{auth0_domain}}/authorize?audience={{auth0_audience}}",
@@ -60,7 +60,7 @@
 				},
 				"method": "GET",
 				"header": [],
-				"url": "http://localhost:8888/private"
+				"url": "127.0.0.1:8888/private"
 			},
 			"response": []
 		}
